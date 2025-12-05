@@ -15,4 +15,5 @@ sealed class WaldoScreen(
     object Hunt : WaldoScreen("hunt", "Hunt", Icons.Filled.Home)
     object Leaderboard : WaldoScreen("leaderboard", "Leaderboard", Icons.Filled.List)
     object Waldo : WaldoScreen("waldo", "Waldo", Icons.Filled.Person)
+    object CodeEntry : WaldoScreen("codeEntry", "Enter Code", Icons.Filled.Person)
 }
