@@ -88,7 +88,6 @@ fun CampusWaldoApp(
             composable(WaldoScreen.Hunt.route) { HuntRoute() }
             composable(WaldoScreen.Leaderboard.route) { LeaderboardRoute() }
             composable(WaldoScreen.Waldo.route) { WaldoOnlyScreen() }
-            composable(WaldoScreen.CodeEntry.route) { CodeEntryRoute() }
         }
     }
 }
